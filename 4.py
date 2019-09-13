@@ -1,7 +1,0 @@
-num = input ('Введіть чотирьох значне число: ')
-print ('Добуток=', int (num[0])*int (num[1])*int (num[2])*int (num[3]))
-num_order = "{3}, {2}, {1}, {0}".format(num[0],num[1],num[2],num[3])
-print ('Reverse:', num_order)
-num_list = list (num)
-num_list.sort()
-print ('Sort:', num_list)
