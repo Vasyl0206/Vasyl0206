@@ -42,5 +42,19 @@
 # else:
 #     print ("Вітаємо ", a)    
 
+# arg=23
+# ostat = 1
+# suma = arg//10
+# while arg > 0:
+#     if arg %10 != 0:
+#         ostat = ostat * arg %10
+#         suma = arg//10 + ostat
+#     print (suma)   
+# suma = arg//10
+# print (suma)
+
+# n=156
+# suma = n//10 + n%10
+# print (suma)
 
 
