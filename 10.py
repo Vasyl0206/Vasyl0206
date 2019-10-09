@@ -10,14 +10,7 @@ vol=20
 done = True
 clock = pygame.time.Clock()
 
-def left(x,r,vol):
-    
-    x += vol
-    return right(x,r,vol)
-def right(x,r,vol):
-    
-    x -= vol
-    return left(x,r,vol)
+
 
 while done:
     pygame.time.delay(100)
